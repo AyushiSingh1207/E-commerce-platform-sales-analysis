@@ -93,7 +93,7 @@ print(customers.isnull().sum())
 
 ## Step 6: Install Required Libraries
 
-     pip install sqlalchemy mysql-connector-python
+     pip install sqlalchemy,mysql-connector-python
 ## Step 7: Connect Python to SQL
 
     from sqlalchemy import create_engine
@@ -122,7 +122,7 @@ Once we retrieve SQL data, we can visualize it using Matplotlib and Seaborn.
     Removed missing values, duplicates, and fixed data types.
     Merged datasets for a structured view.
     Stored the cleaned data in MySQL using SQLAlchemy.
-    Queried the SQL database to analyze Walmart sales trends.
+    Queried the SQL database to analyze E-commerce sales trends.
     Visualized the results using Matplotlib and Seaborn.
   
   
